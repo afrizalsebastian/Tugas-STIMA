@@ -300,7 +300,7 @@ int main(int argc, char const *argv[])
 
     cout << "Filename (in test Folder) : ";
     cin >> filename;
-    ifstream MyReadFile("..\\test\\" + filename);
+    ifstream MyReadFile("test\\" + filename);
 
     int row = 0;
     int col = 0;
@@ -330,7 +330,7 @@ int main(int argc, char const *argv[])
     std::vector<std::string> wordAcco {};
 
     string newText;
-    ifstream newReadText("..\\test\\" + filename);
+    ifstream newReadText("test\\" + filename);
     int idxRow = 1;
     int idxCol = 0;
     while(getline(newReadText, newText)){

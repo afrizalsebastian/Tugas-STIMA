@@ -21,15 +21,14 @@ Serta ada main program yang melakukan pembacaan file dan menge-assign puzzle ke 
 Program Telah di-Complie dan ada di Folder bin, cara menjalankan:
   1. Open Folder Tucil dengan VSCode.
   2. Buka CMD pada VSCode (untuk mendukung pewarnaan puzzle).
-  3. Lakukan pindah directoru ==> ...\Tucil1> cd bin
-  4. Jalankan program Main.exe ==> ...\Tucil1\bin> Main.exe
-  5. Masukkan nama file dengan extension txt (.txt) dan Pastikan file text berada di folder test.
+  3. Jalankan program dengan Command "bin\Main" ==> ..\Tucil1>bin\Main
+  4. Masukkan nama file dengan extension .txt
   
 Jika ingin melakukan Complie ulang :
   1. Open Folder Tucil dengan VSCode.
-  2. Gunakan task VSCode dengan CTRL + SHIFT + B.
-  3. Setelah di compile, akan diminta masukkan nama file, nama file dapat dimasukkan, namun program tidak akan mengesekusi file karena directory yang berbeda.
-  4. Lalu dapat dilanjutkan seperti langkah "Program Telah di-Complie dan ada di Folder bin"
+  2. Buka CMD pada VSCode (untuk mendukung pewarnaan puzzle).
+  3. Jalankan Command "g++ -std=c++17 .\src\Main.cpp -o .\bin\Main.exe" ==> ..Tucil1>g++ -std=c++17 .\src\Main.cpp -o .\bin\Main.exe
+  4. Lalu dapat dilanjutkan seperti langkah diatas "Program Telah di-Complie dan ada di Folder bin"
   
   
 Afrizal Sebastian
